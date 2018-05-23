@@ -194,10 +194,10 @@ function cropFace(rect, face_id) {
     var w = rect.width;
     var h = rect.height;
 
-    x = x - Math.round(w*0.10)
-    y = y + Math.round(h*0.02)
-    w = w + Math.round(w*0.20)
-    h = h + Math.round(h*0.20)
+    x = x - Math.round(w*0.05)
+    y = y + Math.round(h*0.05)
+    w = w + Math.round(w*0.10)
+    h = h + Math.round(h*0.10)
 
     var ratio = img.naturalWidth / img.width;
 

@@ -31,8 +31,8 @@ function predictShape(image){
     x = points[i*3  ];
     y = points[i*3+1];
     z = points[i*3+2];
-    int_x = Math.round(x*256*1.1);
-    int_y = Math.round(y*256*1.1);
+    int_x = Math.round(x*256*1.2);
+    int_y = Math.round(y*256*1.2);
     if( 0 <= int_x && int_x < 256 && 0 <= int_y && int_y < 256 )
     {
         index = ( int_y * 256 + int_x ) * 3;
